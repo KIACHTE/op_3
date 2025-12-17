@@ -15,7 +15,7 @@ typedef struct {
 } TaskQueue;
 
 typedef struct {
-    char* outputs[1000]; // Stores results by ID
+    char* outputs[1000]; 
     pthread_mutex_t lock;
 } ResultStore;
 
